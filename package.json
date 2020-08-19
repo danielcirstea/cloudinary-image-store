@@ -1,0 +1,16 @@
+{
+  "name": "cloudinary-image-store",
+  "version": "1.0.0",
+  "description": "Image store for cloudinary app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Daniel Cirstea",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.0"
+  }
+}
