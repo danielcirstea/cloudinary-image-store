@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const http = require('http');
 const app = express();
@@ -14,7 +16,6 @@ app.use('/api', api);
 app.use('*', (req, res) => {
     res.status(200).json({ status: 'online' });
 });
-
 
 http.createServer(app).listen(config.app.port,() => {
     console.log(`Listening on ${config.app.port}`);
