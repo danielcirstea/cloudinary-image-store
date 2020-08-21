@@ -32,9 +32,9 @@ There are 4 endpoints available:
 Docker containerization is also available. 
 For this, simply run the following commands:
 
-####### docker build -t <some-namespace>/cloudinary-image-store . 
+####### docker build -t namespace/cloudinary-image-store . 
 
-####### docker run -p port:port <some-namespace>/cloudinary-image-store
+####### docker run -p port:port namespace/cloudinary-image-store
 
 <pre>
                    \` ..\
